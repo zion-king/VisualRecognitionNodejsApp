@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "machinelearning_apikey": {
+    "searchPatterns": [
+      "user-provided:WatsonMachineLearning-11633:apikey",
+      "cloudfoundry:$['machinelearning'][0].credentials.apikey",
+      "env:service_machinelearning:$.apikey",
+      "env:machinelearning_apikey",
+      "file:/server/localdev-config.json:$.machinelearning_apikey"
+    ]
+  },
+  "machinelearning": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided:WatsonMachineLearning-11633:url",
+        "cloudfoundry:machinelearning",
+        "env:machinelearning_credentials",
+        "file:/server/localdev-config.json:machinelearning_credentials"
+      ]
+    }
+  },
+  "machinelearning_iam_apikey_description": {
+    "searchPatterns": [
+      "user-provided:WatsonMachineLearning-11633:iam_apikey_description",
+      "cloudfoundry:$['machinelearning'][0].credentials.iam_apikey_description",
+      "env:service_machinelearning:$.iam_apikey_description",
+      "env:machinelearning_iam_apikey_description",
+      "file:/server/localdev-config.json:$.machinelearning_iam_apikey_description"
+    ]
+  },
+  "machinelearning_iam_apikey_name": {
+    "searchPatterns": [
+      "user-provided:WatsonMachineLearning-11633:iam_apikey_name",
+      "cloudfoundry:$['machinelearning'][0].credentials.iam_apikey_name",
+      "env:service_machinelearning:$.iam_apikey_name",
+      "env:machinelearning_iam_apikey_name",
+      "file:/server/localdev-config.json:$.machinelearning_iam_apikey_name"
+    ]
+  },
+  "machinelearning_iam_role_crn": {
+    "searchPatterns": [
+      "user-provided:WatsonMachineLearning-11633:iam_role_crn",
+      "cloudfoundry:$['machinelearning'][0].credentials.iam_role_crn",
+      "env:service_machinelearning:$.iam_role_crn",
+      "env:machinelearning_iam_role_crn",
+      "file:/server/localdev-config.json:$.machinelearning_iam_role_crn"
+    ]
+  },
+  "machinelearning_iam_serviceid_crn": {
+    "searchPatterns": [
+      "user-provided:WatsonMachineLearning-11633:iam_serviceid_crn",
+      "cloudfoundry:$['machinelearning'][0].credentials.iam_serviceid_crn",
+      "env:service_machinelearning:$.iam_serviceid_crn",
+      "env:machinelearning_iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.machinelearning_iam_serviceid_crn"
+    ]
+  },
+  "machinelearning_instance_id": {
+    "searchPatterns": [
+      "user-provided:WatsonMachineLearning-11633:instance_id",
+      "cloudfoundry:$['machinelearning'][0].credentials.instance_id",
+      "env:service_machinelearning:$.instance_id",
+      "env:machinelearning_instance_id",
+      "file:/server/localdev-config.json:$.machinelearning_instance_id"
+    ]
+  },
+  "machinelearning_url": {
+    "searchPatterns": [
+      "user-provided:WatsonMachineLearning-11633:url",
+      "cloudfoundry:$['machinelearning'][0].credentials.url",
+      "env:service_machinelearning:$.url",
+      "env:machinelearning_url",
+      "file:/server/localdev-config.json:$.machinelearning_url"
+    ]
+  },
+  "watson_visual_recognition_apikey": {
+    "searchPatterns": [
+      "user-provided:visual-recognition-n-visualrecogniti-159241412726-:apikey",
+      "cloudfoundry:$['visualRecognition'][0].credentials.apikey",
+      "env:service_watson_visual_recognition:$.apikey",
+      "env:watson_visual_recognition_apikey",
+      "file:/server/localdev-config.json:$.watson_visual_recognition_apikey"
+    ]
+  },
+  "watson_visual_recognition": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided:visual-recognition-n-visualrecogniti-159241412726-:url",
+        "cloudfoundry:watson_visual_recognition",
+        "env:watson_visual_recognition_credentials",
+        "file:/server/localdev-config.json:watson_visual_recognition_credentials"
+      ]
+    }
+  },
+  "watson_visual_recognition_iam_apikey_description": {
+    "searchPatterns": [
+      "user-provided:visual-recognition-n-visualrecogniti-159241412726-:iam_apikey_description",
+      "cloudfoundry:$['visualRecognition'][0].credentials.iam_apikey_description",
+      "env:service_watson_visual_recognition:$.iam_apikey_description",
+      "env:watson_visual_recognition_iam_apikey_description",
+      "file:/server/localdev-config.json:$.watson_visual_recognition_iam_apikey_description"
+    ]
+  },
+  "watson_visual_recognition_iam_apikey_name": {
+    "searchPatterns": [
+      "user-provided:visual-recognition-n-visualrecogniti-159241412726-:iam_apikey_name",
+      "cloudfoundry:$['visualRecognition'][0].credentials.iam_apikey_name",
+      "env:service_watson_visual_recognition:$.iam_apikey_name",
+      "env:watson_visual_recognition_iam_apikey_name",
+      "file:/server/localdev-config.json:$.watson_visual_recognition_iam_apikey_name"
+    ]
+  },
+  "watson_visual_recognition_iam_role_crn": {
+    "searchPatterns": [
+      "user-provided:visual-recognition-n-visualrecogniti-159241412726-:iam_role_crn",
+      "cloudfoundry:$['visualRecognition'][0].credentials.iam_role_crn",
+      "env:service_watson_visual_recognition:$.iam_role_crn",
+      "env:watson_visual_recognition_iam_role_crn",
+      "file:/server/localdev-config.json:$.watson_visual_recognition_iam_role_crn"
+    ]
+  },
+  "watson_visual_recognition_iam_serviceid_crn": {
+    "searchPatterns": [
+      "user-provided:visual-recognition-n-visualrecogniti-159241412726-:iam_serviceid_crn",
+      "cloudfoundry:$['visualRecognition'][0].credentials.iam_serviceid_crn",
+      "env:service_watson_visual_recognition:$.iam_serviceid_crn",
+      "env:watson_visual_recognition_iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.watson_visual_recognition_iam_serviceid_crn"
+    ]
+  },
+  "watson_visual_recognition_url": {
+    "searchPatterns": [
+      "user-provided:visual-recognition-n-visualrecogniti-159241412726-:url",
+      "cloudfoundry:$['visualRecognition'][0].credentials.url",
+      "env:service_watson_visual_recognition:$.url",
+      "env:watson_visual_recognition_url",
+      "file:/server/localdev-config.json:$.watson_visual_recognition_url"
+    ]
+  }
+}
